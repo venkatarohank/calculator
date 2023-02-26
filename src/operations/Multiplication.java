@@ -11,4 +11,12 @@ public final class Multiplication {
         MyQueue.add(hs);
         return res;
     }
+
+    public static double multiply(double a, double b)
+    {
+        double res=a*b;
+        HistoryStructure hs=new HistoryStructure("multiply",a+"",b+"",res+" ");
+        MyQueue.add(hs);
+        return res;
+    }
 }

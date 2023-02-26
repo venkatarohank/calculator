@@ -11,4 +11,11 @@ public final class Subtraction {
         MyQueue.add(hs);
         return res;
     }
+    public static double subtract(double a,double b)
+    {
+        double res=a-b;
+        HistoryStructure hs=new HistoryStructure("subtract",a+"",b+"",res+" ");
+        MyQueue.add(hs);
+        return res;
+    }
 }

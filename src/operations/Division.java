@@ -11,5 +11,14 @@ public final class Division {
         MyQueue.add(hs);
         return res;
     }
+    public static double divide(double a, double b)
+    {
+        double res=a/b;
+        HistoryStructure hs=new HistoryStructure("divide",a+"",b+"",res+" ");
+        MyQueue.add(hs);
+        return res;
+    }
+
+
 
 }
